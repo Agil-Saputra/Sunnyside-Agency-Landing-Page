@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/sunny.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Sunnyside</title>
+  </head>
+  <body>
+    <!-- HEADER STARTS HERE -->
+    <header>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <!-- LOGO -->
+        <img src="images/logo.svg" alt="logo" />
+        <!-- LINKS -->
+        <div class="links-nav">
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="" class="button">Contact</a></li>
+          </ul>
+        </div>
+        <!-- TOGGLE -->
+        <div class="toggle-menu" onclick="shownavbar()">
+          <img src="images/icon-hamburger.svg" alt="" />
+        </div>
+      </div>
+      <!-- HEADING-TAGLINE -->
+      <div class="tagline">
+        <h1>WE ARE CREATIVES</h1>
+      </div>
+      <!-- ARROW -->
+      <div class="arrow">
+        <a href="#main"><img src="images/icon-arrow-down.svg" alt="" /></a>
+      </div>
+    </header>
+    <!-- CARDS STARTS HERE -->
+    <main id="main" class="grid-container">
+      <!-- CARD 1 -->
+      <article class="grid-1">
+        <img
+          src="images/mobile/image-transform.jpg"
+          alt="image-transform-egg"
+          class="width"
+        />
+      </article>
+
+      <!-- CARD 2 -->
+      <article class="grid-2">
+        <div class="text">
+          <h1>Transform your brand</h1>
+          <p>
+            We are full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of marketing for you.
+          </p>
+          <a href="" class="link hover-yellow">LEARN MORE</a>
+        </div>
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="grid-3">
+        <img
+          src="images/mobile/image-stand-out.jpg"
+          alt="image-stand-out"
+          class="width"
+        />
+      </article>
+
+      <!-- CARD 4 -->
+      <article class="grid-4">
+        <div class="text">
+          <h1>Stand out to the right audience</h1>
+          <p>
+            Using a collaborative formula of designer, researcher,
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places.
+          </p>
+          <a href="" class="link hover-red">LEARN MORE</a>
+        </div>
+      </article>
+
+      <!-- CARD 5 -->
+      <article class="grid-5">
+        <div class="services-text">
+          <h1>Graphic Design</h1>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand massage and captures potential client's
+            attention.
+          </p>
+        </div>
+      </article>
+
+      <!-- CARD 6 -->
+      <article class="grid-6">
+        <div class="services-text">
+          <h1>Photography</h1>
+          <p>
+            Increase your credibility by getting the most stunning, high quality
+            photos that improve your bussiness image.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <!-- TESTIMONIAL SECTION -->
+    <section class="testimonials">
+      <h1>CLIENTS TESTIMONIALS</h1>
+      <div class="flex-wrapper">
+        <div class="cards">
+          <img src="images/image-emily.jpg" alt="" />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h2>Emily R.</h2>
+          <h4>Marketing Director</h4>
+        </div>
+
+        <div class="cards">
+          <img src="images/image-thomas.jpg" alt="" />
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h2>Thomas S.</h2>
+          <h4>Chief Operating Officer</h4>
+        </div>
+
+        <div class="cards">
+          <img src="images/image-jennie.jpg" alt="" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h2>Jennie F.</h2>
+          <h4>Business Owner</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div>
+        <img src="images/mobile/image-gallery-milkbottles.jpg" alt="" />
+      </div>
+      <div>
+        <img src="images/mobile/image-gallery-orange.jpg" alt="" />
+      </div>
+      <div>
+        <img src="images/mobile/image-gallery-cone.jpg" alt="" />
+      </div>
+      <div>
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+      </div>
+    </section>
+    
+    
+    <footer>
+      <img src="images/logo.svg" alt="">
+      <div>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="icons"> 
+        <a href=""><iconify-icon icon="carbon:logo-facebook" width="30"></iconify-icon></a>
+        <a href=""><iconify-icon icon="mdi:instagram" width="30"></iconify-icon></a>
+        <a href=""><iconify-icon icon="mdi:twitter" width="30"></iconify-icon></a>
+        <a href=""><iconify-icon icon="mdi:pinterest" width="30"></iconify-icon></a>
+      </div>
+
+    </footer>
+
+
+  </body>
+</html>
